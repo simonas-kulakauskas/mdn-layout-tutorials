@@ -24,9 +24,11 @@ body {
   padding: 10px;
   color: #fff;
 }
+
 .float {
   float: right;
 }
 
 .box {
+  display: flow-root;
 }
