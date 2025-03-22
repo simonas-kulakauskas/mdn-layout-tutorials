@@ -18,13 +18,19 @@ body {
   padding: 1em;
 }
 
-.special {
-  /* For illustrating that the text background still runs underneath the float*/
+/* .special {
   background-color: rgb(148 255 172);
   padding: 10px;
   color: purple;
+} */
+
+.wrapper {
+  background-color: rgb(148 255 172);
+  padding: 10px;
+  color: purple;
+  display: flow-root;
 }
 
-.cleared {
+/* .cleared {
   clear: left;
-}
+} */
