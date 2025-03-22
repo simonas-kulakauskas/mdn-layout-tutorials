@@ -8,7 +8,7 @@ body {
 .box {
   /* New Part: Floating box & spacing from the text */
   float: left;
-  margin-right: 15px;
+  margin: 15px;
 
   /* Usual Part */
   width: 150px;
@@ -23,4 +23,8 @@ body {
   background-color: rgb(148 255 172);
   padding: 10px;
   color: purple;
+}
+
+.cleared {
+  clear: left;
 }
