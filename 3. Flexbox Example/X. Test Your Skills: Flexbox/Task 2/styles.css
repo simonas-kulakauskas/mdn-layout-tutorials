@@ -22,3 +22,8 @@ ul {
 li {
   flex: 1;
 }
+
+/* Bonus Task */
+li:first-child {
+  flex: 2;
+}
