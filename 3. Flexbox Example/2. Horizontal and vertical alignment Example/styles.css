@@ -14,3 +14,18 @@ button {
   width: 15%;
 }
 /* Add your flexbox CSS below here */
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* button:first-child {
+  align-self: flex-end;
+  order: 1;
+} */
+
+button:last-child {
+  order: -1;
+}
