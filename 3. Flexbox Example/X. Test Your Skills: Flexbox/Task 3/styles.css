@@ -1,0 +1,20 @@
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+.parent {
+  border: 2px solid #77a6b6;
+  border-radius: 0.5em;
+  height: 200px;
+}
+
+.child {
+  background-color: #4d7298;
+  color: #fff;
+  padding: 0.5em;
+  width: 150px;
+}
+.parent {
+}
+
+.child {
+}
