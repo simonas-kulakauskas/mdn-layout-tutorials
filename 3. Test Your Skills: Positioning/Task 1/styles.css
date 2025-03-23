@@ -19,7 +19,14 @@ body {
   color: white;
 }
 .container {
+  position: relative;
 }
 
 .target {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+
+  /* Bonus */
+  z-index: -1;
 }
