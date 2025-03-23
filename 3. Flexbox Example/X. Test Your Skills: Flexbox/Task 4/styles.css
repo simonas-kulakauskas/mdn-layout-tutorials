@@ -16,8 +16,12 @@ li {
   padding: 0.5em;
   margin: 0.5em;
 }
+
 ul {
+  display: flex;
+  flex-flow: row wrap;
 }
 
 li {
+  flex: auto;
 }
