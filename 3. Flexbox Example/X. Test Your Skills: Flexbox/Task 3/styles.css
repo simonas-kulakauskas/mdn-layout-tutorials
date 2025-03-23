@@ -14,7 +14,10 @@ body {
   width: 150px;
 }
 .parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.child {
-}
+/* .child {
+} */
