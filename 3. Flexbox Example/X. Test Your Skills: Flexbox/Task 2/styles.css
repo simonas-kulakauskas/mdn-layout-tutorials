@@ -16,7 +16,9 @@ li {
   padding: 0.5em;
 }
 ul {
+  display: flex;
 }
 
 li {
+  flex: 1;
 }
