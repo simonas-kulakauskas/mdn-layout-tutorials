@@ -92,3 +92,34 @@ main {
     border-top: 0;
   }
 }
+
+@media screen and (min-width: 70em) {
+  article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      "heading heading heading"
+      "desc1 desc1 desc1"
+      "desc2 desc2 desc2"
+      "cards cards cards"
+      "cards cards cards";
+  }
+  article h1 {
+    grid-area: heading;
+  }
+
+  article #desc1 {
+    grid-area: desc1;
+  }
+
+  article #desc2 {
+    grid-area: desc2;
+  }
+
+  article ul {
+    grid-area: cards;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
