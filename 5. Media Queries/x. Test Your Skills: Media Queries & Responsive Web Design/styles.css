@@ -69,3 +69,26 @@ main {
   padding: 0.5em 1em;
   color: #fff;
 }
+
+/* My styles go here */
+
+@media screen and (min-width: 60em) {
+  header {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  header nav ul li a {
+    /* Get rid of silly line above <a> in the list*/
+    border-top: 0;
+  }
+}
